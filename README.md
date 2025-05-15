@@ -17,15 +17,20 @@ Este proyecto consiste en una web que muestra un **reloj en tiempo real**, utili
 - Bootstrap v.5.3
 - JavaScript (puro)
 
-## Cómo usar
 
-1. Ejecute netlify
-2. El reloj se mostrará y se actualizará automáticamente en tiempo real.
+## ¿Cómo probar el proyecto? ⚒️
+1. Clonar el repositorio:
+   ```sh
+   git clone https://github.com/valeiramain/PracticaDOMyBOM-ejercicio4-VI
+1. Abrir la carpeta creada y ejecutar index.html
 
-## Autor
 
-- Proyecto creado para practicar el manejo del DOM y el uso de funciones temporizadas en JavaScript.
+## Demo
 
----
+Mirá la demo del proyecto aquí:  https://numerosmagicos-vi.netlify.app/
 
-> Este reloj es una excelente base para proyectos más avanzados, como agregar fecha, zona horaria, o estilos dinámicos con Bootstrap.
+
+## Autor 
+- **Valentina Iramain**
+    - [LinkedIn](https://www.linkedin.com/in/valentinairamain)
+    - [GitHub](https://github.com/valeiramain)
