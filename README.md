@@ -27,7 +27,7 @@ Este proyecto consiste en una web que muestra un **reloj en tiempo real**, utili
 
 ## Demo
 
-Mirá la demo del proyecto aquí:  https://numerosmagicos-vi.netlify.app/
+Mirá la demo del proyecto aquí:  https://reloj-vi.netlify.app/
 
 
 ## Autor 
