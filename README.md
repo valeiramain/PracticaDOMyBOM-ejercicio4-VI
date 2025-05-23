@@ -6,7 +6,7 @@ Este proyecto consiste en una web que muestra un **reloj en tiempo real**, utili
 
 - Muestra la fecha actual, indicando día de la semana y nombre del mes.
 - Muestra la **hora actual** (horas, minutos y segundos).
-- Formato de 24 horas.
+- Formato de 12 horas, indicando AM y PM según corresponda.
 - Actualización automática cada segundo.
 - Diseño personalizable con CSS.
 
