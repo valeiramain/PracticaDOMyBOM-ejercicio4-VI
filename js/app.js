@@ -5,7 +5,6 @@ function obtenerFechayHora() {
 
     // obtiene el dia de la semana en texto
     const diaSemana = fecha.getDay()
-    console.log('diasemana:' + diaSemana)
     let diaLetras = ''
     switch (diaSemana) {
         case 0:
@@ -35,7 +34,6 @@ function obtenerFechayHora() {
 
     // obtiene el mes
     const mes = fecha.getMonth()
-    console.log('mes:' + mes)
     let mesLetras = ''
     switch (mes) {
         case 0:
@@ -83,9 +81,14 @@ function obtenerFechayHora() {
     const hora = document.querySelector('#hora')
     const segundos = fecha.getSeconds() < 10 ? '0' + fecha.getSeconds() : fecha.getSeconds();
     const minutos = fecha.getMinutes() < 10 ? '0' + fecha.getMinutes() : fecha.getMinutes();
-    const horas = fecha.getHours() < 10 ? '0' + fecha.getHours() : fecha.getHours();
+    let horas = fecha.getHours() < 10 ? '0' + fecha.getHours() : fecha.getHours();
 
-    hora.textContent = `${horas}:${minutos}:${segundos}`
+    const ampm = horas >= 12 ? 'PM' : 'AM';
+      // Convertir a formato 12 horas
+    horas = horas % 12;
+    horas = horas ? horas : 12; // Si es 0, convertir a 12
+
+    hora.textContent = `${horas}:${minutos}:${segundos} ${ampm}`
     textoFecha.textContent = `${diaLetras} ${fecha.getDate()} de ${mesLetras} de ${fecha.getFullYear()}`
 }
 
